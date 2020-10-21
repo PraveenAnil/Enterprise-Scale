@@ -1,0 +1,35 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+        "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Allowed locations",
+          "NotScopes": null,
+          "Parameters": {
+            "listOfAllowedLocations": {
+              "value": [
+                "westus2"
+              ]
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+          "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+        },
+        "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+        "ResourceName": "b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A1",
+          "tier": "Standard"
+        }
+      }
+    }
+  }
+}
