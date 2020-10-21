@@ -203,6 +203,88 @@
             {
               "Identity": null,
               "Location": null,
+              "Name": "4db249901edfe06a6cb7077312996e819f975a395d1750ac1f234d42af3ff90d",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/4db249901edfe06a6cb7077312996e819f975a395d1750ac1f234d42af3ff90d",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Resource Types that you do not want to allow in your environment",
+                "NotScopes": null,
+                "Parameters": {
+                  "listOfResourceTypesNotAllowed": {
+                    "value": null
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6c112d4e-5bc7-47ae-a041-ea2d9dccd749",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/4db249901edfe06a6cb7077312996e819f975a395d1750ac1f234d42af3ff90d",
+              "ResourceName": "4db249901edfe06a6cb7077312996e819f975a395d1750ac1f234d42af3ff90d",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "5607bf2c2878b2dda632103cbbea9da9bf177e9459e61641aff4f75fadc7f745",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/5607bf2c2878b2dda632103cbbea9da9bf177e9459e61641aff4f75fadc7f745",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Append CostCenter TAG to Resource Groups",
+                "NotScopes": null,
+                "Parameters": {
+                  "tagName": {
+                    "value": "CostCenter"
+                  },
+                  "tagValue": {
+                    "value": "Dev"
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/5607bf2c2878b2dda632103cbbea9da9bf177e9459e61641aff4f75fadc7f745",
+              "ResourceName": "5607bf2c2878b2dda632103cbbea9da9bf177e9459e61641aff4f75fadc7f745",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "5b68d19e3ead457edad1c58ca81bb34596e437bb42a1a07642bea695f6300644",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/5b68d19e3ead457edad1c58ca81bb34596e437bb42a1a07642bea695f6300644",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Allowed virtual machine SKUs",
+                "NotScopes": null,
+                "Parameters": {
+                  "listOfAllowedSKUs": {
+                    "value": [
+                      "Standard_B2ms",
+                      "Standard_DS1_v2",
+                      "Standard_F2s_v2"
+                    ]
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/5b68d19e3ead457edad1c58ca81bb34596e437bb42a1a07642bea695f6300644",
+              "ResourceName": "5b68d19e3ead457edad1c58ca81bb34596e437bb42a1a07642bea695f6300644",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
               "Name": "5d2f71e106414cd440ba8900efbd7cf0af169ca9b92e4d7f961570b3967e20f4",
               "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/5d2f71e106414cd440ba8900efbd7cf0af169ca9b92e4d7f961570b3967e20f4",
               "Properties": {
@@ -595,6 +677,52 @@
             {
               "Identity": null,
               "Location": null,
+              "Name": "856fb201cf25a05b5a1acf4397fe15f204da6419ddee5ca966f385c808ac25f9",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/856fb201cf25a05b5a1acf4397fe15f204da6419ddee5ca966f385c808ac25f9",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Append CostCenter TAG & its value from the Resource Group",
+                "NotScopes": null,
+                "Parameters": {
+                  "tagName": {
+                    "value": "CostCenter"
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9ea02ca2-71db-412d-8b00-7c7ca9fcd32d",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/856fb201cf25a05b5a1acf4397fe15f204da6419ddee5ca966f385c808ac25f9",
+              "ResourceName": "856fb201cf25a05b5a1acf4397fe15f204da6419ddee5ca966f385c808ac25f9",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Secure transfer to storage accounts should be enabled",
+                "NotScopes": null,
+                "Parameters": {},
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+              "ResourceName": "85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
               "Name": "8904eaa9ffd6d51a29d51851db79d9574259b3a7154841f4075c25fb6d90fc87",
               "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/8904eaa9ffd6d51a29d51851db79d9574259b3a7154841f4075c25fb6d90fc87",
               "Properties": {
@@ -613,6 +741,395 @@
               },
               "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/8904eaa9ffd6d51a29d51851db79d9574259b3a7154841f4075c25fb6d90fc87",
               "ResourceName": "8904eaa9ffd6d51a29d51851db79d9574259b3a7154841f4075c25fb6d90fc87",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": {
+                "principalId": "dedec10e-15fc-42fc-a29e-d35d94cb8704",
+                "tenantId": "a4dccc73-a3a4-4382-82b5-acbbea92ff60",
+                "type": "SystemAssigned"
+              },
+              "Location": "westus2",
+              "Name": "a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Deploy network watcher when virtual networks are created",
+                "NotScopes": null,
+                "Parameters": {},
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a9b99dd8-06c5-4317-8629-9d86a3c6e7d9",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+              "ResourceName": "a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Allowed locations",
+                "NotScopes": null,
+                "Parameters": {
+                  "listOfAllowedLocations": {
+                    "value": [
+                      "westus2"
+                    ]
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+              "ResourceName": "b5c1a353d182b8ee68c3c3351a2c038bca8a48d1bee664075ffb122e55fa692c",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "b9f53193a5d9b7343626f965c72610576a7db2d82a64de4b1c15c373b1406a7b",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/b9f53193a5d9b7343626f965c72610576a7db2d82a64de4b1c15c373b1406a7b",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Enable Monitoring in Azure Security Center",
+                "NotScopes": null,
+                "Parameters": {
+                  "aadAuthenticationInServiceFabricMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "aadAuthenticationInSqlServerMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "accessRulesInEventHubMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "accessRulesInEventHubNamespaceMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "adaptiveApplicationControlsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "adaptiveNetworkHardeningsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "apiAppConfigureIPRestrictionsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "apiAppDisableRemoteDebuggingMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "apiAppDisableWebSocketsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "apiAppEnforceHttpsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "apiAppRestrictCORSAccessMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "apiAppUsedCustomDomainsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "apiAppUsedLatestDotNetMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "apiAppUsedLatestJavaMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "apiAppUsedLatestPHPMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "apiAppUsedLatestPythonMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "classicComputeVMsMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "classicStorageAccountsMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "clusterProtectionLevelInServiceFabricMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "diagnosticsLogsInAppServiceMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "diagnosticsLogsInBatchAccountMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInBatchAccountRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInDataLakeAnalyticsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInDataLakeAnalyticsRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInDataLakeStoreMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInDataLakeStoreRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInEventHubMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInEventHubRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInIoTHubMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInIoTHubRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInKeyVaultMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInKeyVaultRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInLogicAppsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInLogicAppsRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInRedisCacheMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "diagnosticsLogsInSearchServiceMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInSearchServiceRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInSelectiveAppServicesMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInServiceBusMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInServiceBusRetentionDays": {
+                    "value": "365"
+                  },
+                  "diagnosticsLogsInServiceFabricMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInStreamAnalyticsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "diagnosticsLogsInStreamAnalyticsRetentionDays": {
+                    "value": "365"
+                  },
+                  "disableIPForwardingMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "disableUnrestrictedNetworkToStorageAccountMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "diskEncryptionMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "encryptionOfAutomationAccountMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "endpointProtectionMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "functionAppConfigureIPRestrictionsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "functionAppDisableRemoteDebuggingMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "functionAppDisableWebSocketsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "functionAppEnforceHttpsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "functionAppRestrictCORSAccessMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "functionAppUsedCustomDomainsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "identityDesignateLessThanOwnersMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityDesignateMoreThanOneOwnerMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityEnableMFAForOwnerPermissionsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityEnableMFAForReadPermissionsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityEnableMFAForWritePermissionsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityRemoveDeprecatedAccountMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityRemoveDeprecatedAccountWithOwnerPermissionsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityRemoveExternalAccountWithOwnerPermissionsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityRemoveExternalAccountWithReadPermissionsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "identityRemoveExternalAccountWithWritePermissionsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "jitNetworkAccessMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "kubernetesServiceRbacEnabledMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "metricAlertsInBatchAccountMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "namespaceAuthorizationRulesInServiceBusMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "networkSecurityGroupsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "nextGenerationFirewallMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "restrictAccessToAppServicesMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "restrictAccessToManagementPortsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "secureTransferToStorageAccountMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "sqlAuditingMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlDbDataClassificationMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlDbEncryptionMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlDbVulnerabilityAssesmentMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlEncryptionMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlManagedInstanceAdvancedDataSecurityMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlServerAdvancedDataSecurityMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlServerAuditingActionsAndGroupsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "sqlServerAuditingMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "storageEncryptionMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "systemConfigurationsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "systemUpdatesMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "useRbacRulesMonitoringEffect": {
+                    "value": "Audit"
+                  },
+                  "vmssEndpointProtectionMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "vmssOsVulnerabilitiesMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "vmssSystemUpdatesMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "vnetEnableDDoSProtectionMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "vulnerabilityAssesmentMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "vulnerabilityAssessmentOnManagedInstanceMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "vulnerabilityAssessmentOnServerMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "webAppConfigureIPRestrictionsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "webAppDisableRemoteDebuggingMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "webAppDisableWebSocketsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "webAppEnforceHttpsMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "webApplicationFirewallMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "webAppRestrictCORSAccessMonitoringEffect": {
+                    "value": "AuditIfNotExists"
+                  },
+                  "webAppUsedCustomDomainsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "webAppUsedLatestDotNetMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "webAppUsedLatestJavaMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "webAppUsedLatestNodeJsMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "webAppUsedLatestPHPMonitoringEffect": {
+                    "value": "Disabled"
+                  },
+                  "webAppUsedLatestPythonMonitoringEffect": {
+                    "value": "Disabled"
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/b9f53193a5d9b7343626f965c72610576a7db2d82a64de4b1c15c373b1406a7b",
+              "ResourceName": "b9f53193a5d9b7343626f965c72610576a7db2d82a64de4b1c15c373b1406a7b",
               "ResourceType": "Microsoft.Authorization/policyAssignments",
               "Sku": {
                 "name": "A1",
@@ -693,6 +1210,60 @@
               },
               "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/d77444a3dd17ef2c94763af08577a59e4687cfa2d6b048a5a3384421a08c3fc3",
               "ResourceName": "d77444a3dd17ef2c94763af08577a59e4687cfa2d6b048a5a3384421a08c3fc3",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "e4853530ecc4b4405300713e90223617147234599ac7732ac18e1fb8274a6ba2",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/e4853530ecc4b4405300713e90223617147234599ac7732ac18e1fb8274a6ba2",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Allowed locations for resource groups",
+                "NotScopes": null,
+                "Parameters": {
+                  "listOfAllowedLocations": {
+                    "value": [
+                      "westus2"
+                    ]
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e765b5de-1225-4ba3-bd56-1ac6695af988",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/e4853530ecc4b4405300713e90223617147234599ac7732ac18e1fb8274a6ba2",
+              "ResourceName": "e4853530ecc4b4405300713e90223617147234599ac7732ac18e1fb8274a6ba2",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "f57191c7aed4aa86fb165081c5ca1dd591ed84f7859b825ce8e4365737acd751",
+              "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/f57191c7aed4aa86fb165081c5ca1dd591ed84f7859b825ce8e4365737acd751",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Allowed storage account SKUs",
+                "NotScopes": null,
+                "Parameters": {
+                  "listOfAllowedSKUs": {
+                    "value": [
+                      "Standard_LRS"
+                    ]
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7433c107-6db4-4ad1-b57a-a76dce0154a1",
+                "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+              },
+              "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/f57191c7aed4aa86fb165081c5ca1dd591ed84f7859b825ce8e4365737acd751",
+              "ResourceName": "f57191c7aed4aa86fb165081c5ca1dd591ed84f7859b825ce8e4365737acd751",
               "ResourceType": "Microsoft.Authorization/policyAssignments",
               "Sku": {
                 "name": "A1",

@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "dedec10e-15fc-42fc-a29e-d35d94cb8704",
+          "tenantId": "a4dccc73-a3a4-4382-82b5-acbbea92ff60",
+          "type": "SystemAssigned"
+        },
+        "Location": "westus2",
+        "Name": "a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+        "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Deploy network watcher when virtual networks are created",
+          "NotScopes": null,
+          "Parameters": {},
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a9b99dd8-06c5-4317-8629-9d86a3c6e7d9",
+          "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+        },
+        "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+        "ResourceName": "a1d37cf324dae6b477d20eefeedbc0145678eb79d458baee15c9e87b55a3e3d9",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A1",
+          "tier": "Standard"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+        "PolicyAssignmentId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Secure transfer to storage accounts should be enabled",
+          "NotScopes": null,
+          "Parameters": {},
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+          "Scope": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c"
+        },
+        "ResourceId": "/subscriptions/750628f8-a98b-4e3d-ae59-81f01c8ebc4c/providers/Microsoft.Authorization/policyAssignments/85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+        "ResourceName": "85abe2014a451bbfbeee17448f42c17e3543636f684bd42ee112d51c1f18370d",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A1",
+          "tier": "Standard"
+        }
+      }
+    }
+  }
+}
